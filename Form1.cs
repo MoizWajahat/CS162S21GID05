@@ -45,7 +45,12 @@ namespace WindowsFormsApp1
                 m.Show();
                 this.Hide();
 
-            } 
+            } else if (Usernametxt.Text == "Trainer")
+            {
+                TMenu t = new TMenu();
+                t.Show();
+                this.Hide();
+            }
             else if (Usernametxt.Text == "")
             {
                 this.Issuetxt.Show();
