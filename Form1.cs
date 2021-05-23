@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ShowMessage;
 
 namespace WindowsFormsApp1
 {
@@ -15,6 +16,8 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+           
+          
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -29,6 +32,7 @@ namespace WindowsFormsApp1
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            
             Form2 d = new Form2();
             d.Show();
             this.Hide();

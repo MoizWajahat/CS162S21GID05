@@ -118,49 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="3053" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3053.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="stretching_50pxll" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stretching_50pxll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="launchpad_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\launchpad_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Amin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Amin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="treadmill_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\treadmill_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3053.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Gym-Fitness-Social-Media" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gym-Fitness-Social-Media.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dumbbell_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dumbbell_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="stretching_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stretching_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dental_machine_500px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dental_machine_500px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ticket_purchase_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ticket_purchase_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="welcome-i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\welcome-i.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bench_press_160px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bench_press_160px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stretching_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stretching_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="documents-concept-illustration_114360-138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\documents-concept-illustration_114360-138.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="launchpad_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\launchpad_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bitcoin_cryptocurrency_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bitcoin_cryptocurrency_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="treadmill_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\treadmill_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stretching_50pxll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stretching_50pxll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expensive_price_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expensive_price_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="treadmill_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\treadmill_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battle_ropes_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battle_ropes_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2807920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2807920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cycling_128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cycling_128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dumbbell_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumbbell_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="milkshake_128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\milkshake_128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="04012019-25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\04012019-25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bitcoin_cryptocurrency_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bitcoin_cryptocurrency_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="111111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\111111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="personal_trainer_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\personal_trainer_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cycling_128px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cycling_128px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dumbbell_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumbbell_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="welcome-i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\welcome-i.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="us_dollar_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\us_dollar_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
