@@ -17,9 +17,24 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("Home");
+        }
+
         private void bunifuButton4_Click(object sender, EventArgs e)
         {
             bunifuPages2.SetPage("Store");
+        }
+
+        private void bunifuButton7_Click(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("addTrainer");
+        }
+
+        private void bunifuButton3_Click(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("Request");
         }
     }
 }
