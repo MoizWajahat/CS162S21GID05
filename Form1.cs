@@ -16,8 +16,8 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-           
-          
+            this.Issuetxt.Hide();
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -33,9 +33,15 @@ namespace WindowsFormsApp1
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
             
-            Form2 d = new Form2();
-            d.Show();
-            this.Hide();
+            if (Usernametxt.Text == "Admin")
+            {
+                Form2 d = new Form2();
+                d.Show();
+                this.Hide();
+            } else if (Usernametxt.Text == "")
+            {
+                this.Issuetxt.Show();
+            }
         }
     }
 }
