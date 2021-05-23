@@ -147,3 +147,4 @@ E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\Wind
 E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\WindowsFormsApp1.exe
 E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\WindowsFormsApp1.pdb
+E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\WindowsFormsApp1.GuestMenu.resources

@@ -44,6 +44,7 @@ namespace WindowsFormsApp1
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Issuetxt = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -53,7 +54,6 @@ namespace WindowsFormsApp1
             this.Passwordtxt = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.Usernametxt = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.Issuetxt = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -105,6 +105,17 @@ namespace WindowsFormsApp1
             this.panel1.Size = new System.Drawing.Size(912, 519);
             this.panel1.TabIndex = 0;
             // 
+            // Issuetxt
+            // 
+            this.Issuetxt.AutoSize = true;
+            this.Issuetxt.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Issuetxt.ForeColor = System.Drawing.Color.Crimson;
+            this.Issuetxt.Location = new System.Drawing.Point(533, 400);
+            this.Issuetxt.Name = "Issuetxt";
+            this.Issuetxt.Size = new System.Drawing.Size(287, 21);
+            this.Issuetxt.TabIndex = 13;
+            this.Issuetxt.Text = "Please fill in the Username text box";
+            // 
             // bunifuImageButton1
             // 
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
@@ -143,6 +154,7 @@ namespace WindowsFormsApp1
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(116, 42);
             this.bunifuCustomLabel1.TabIndex = 9;
             this.bunifuCustomLabel1.Text = "Enter as Guest?\r\n\r\n";
+            this.bunifuCustomLabel1.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
             // 
             // label2
             // 
@@ -348,17 +360,6 @@ namespace WindowsFormsApp1
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // Issuetxt
-            // 
-            this.Issuetxt.AutoSize = true;
-            this.Issuetxt.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Issuetxt.ForeColor = System.Drawing.Color.Crimson;
-            this.Issuetxt.Location = new System.Drawing.Point(533, 400);
-            this.Issuetxt.Name = "Issuetxt";
-            this.Issuetxt.Size = new System.Drawing.Size(287, 21);
-            this.Issuetxt.TabIndex = 13;
-            this.Issuetxt.Text = "Please fill in the Username text box";
             // 
             // Form1
             // 

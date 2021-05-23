@@ -38,10 +38,25 @@ namespace WindowsFormsApp1
                 Form2 d = new Form2();
                 d.Show();
                 this.Hide();
-            } else if (Usernametxt.Text == "")
+
+            } else if (Usernametxt.Text == "Customer")
+            {
+                CustomerMenu m = new CustomerMenu();
+                m.Show();
+                this.Hide();
+
+            } 
+            else if (Usernametxt.Text == "")
             {
                 this.Issuetxt.Show();
             }
+        }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+            GuestMenu M = new GuestMenu();
+            M.Show();
+            this.Hide();
         }
     }
 }

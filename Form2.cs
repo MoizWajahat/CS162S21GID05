@@ -81,5 +81,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void bunifuButton7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

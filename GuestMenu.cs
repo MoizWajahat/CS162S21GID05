@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class GuestM : Form
+    public partial class GuestMenu : Form
     {
         public GuestM()
         {
@@ -30,6 +30,26 @@ namespace WindowsFormsApp1
         private void bunifuButton7_Click(object sender, EventArgs e)
         {
             bunifuPages2.SetPage("addTrainer");
+        }
+
+        private void tabPage8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("Home");
+        }
+
+        private void bunifuButton4_Click(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("Store");
+        }
+
+        private void bunifuButton6_Click(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("addCoustomer");
         }
     }
 }
