@@ -55,7 +55,7 @@ namespace WindowsFormsApp1
         {
             return Requestor;
         }
-         
+
         public DateTime getDateTimeRequested()
         {
             return DateTimeRequested;

@@ -16,17 +16,17 @@ namespace WindowsFormsApp1
         public bool SetAmount(String Amount)
         {
             this.Amount = Amount;
-                return true;
+            return true;
         }
-        public bool SetReason(String Reason )
+        public bool SetReason(String Reason)
         {
             this.Reason = Reason;
-                return true;
+            return true;
         }
-        public bool SetID(String ID )
+        public bool SetID(String ID)
         {
             this.ID = ID;
-                return true;
+            return true;
         }
 
         public bool SetDateNTime(DateTime DateNTime)
@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
             return true;
         }
 
-         public String getAmount()
+        public String getAmount()
         {
             return Amount;
         }
@@ -47,11 +47,10 @@ namespace WindowsFormsApp1
         {
             return ID;
         }
-      
+
         public DateTime getDateNTime()
         {
             return DateNTime;
         }
-
     }
 }

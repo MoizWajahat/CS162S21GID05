@@ -22,11 +22,11 @@ namespace WindowsFormsApp1
         public abstract String GetId();
 
         //Setter
-        public abstract Boolean SetName();
-        public abstract Boolean SetDOB();
-        public abstract Boolean SetEmail();
-        public abstract Boolean SetCard();
-        public abstract Boolean SetId();
+        public abstract Boolean SetName(String Nam);
+        public abstract Boolean SetDOB(DateTime DOB);
+        public abstract Boolean SetEmail(String Email);
+        public abstract Boolean SetCard(CreditCard Credit);
+        public abstract Boolean SetId(String ID);
 
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class Excercise
+    class Exercise
     {
         private String Name;
         private String Description;
@@ -40,7 +40,7 @@ namespace WindowsFormsApp1
             this.AvoidRec = AvoidRec;
             return true;
         }
-        
+
         public String getName()
         {
             return Name;
@@ -61,7 +61,5 @@ namespace WindowsFormsApp1
         {
             return AvoidRec;
         }
-
-
     }
 }
