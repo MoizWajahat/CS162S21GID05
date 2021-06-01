@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class GuestMenu : Form
     {
-        public GuestM()
+        public GuestMenu()
         {
             InitializeComponent();
         }
