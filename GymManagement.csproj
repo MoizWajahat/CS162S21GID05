@@ -117,9 +117,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreditCard.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="Exercise.cs" />
+    <Compile Include="Excercise.cs" />
     <Compile Include="FinancialRec.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -139,7 +137,6 @@
     <Compile Include="CustomerMenu.Designer.cs">
       <DependentUpon>CustomerMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Person.cs" />
     <Compile Include="Request.cs" />
     <Compile Include="TMenu.cs">
       <SubType>Form</SubType>
