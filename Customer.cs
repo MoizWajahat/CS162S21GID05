@@ -128,7 +128,7 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetMemb (Boolean Status)
+        public Boolean SetMemb(Boolean Status)
         {
             if ()
             {
@@ -140,7 +140,7 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetGymT (GymThing Item)
+        public Boolean SetGymT(GymThing Item)
         {
             if ()
             {
@@ -152,7 +152,7 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetJoin (DateTime Join)
+        public Boolean SetJoin(DateTime Join)
         {
             if ()
             {
@@ -164,7 +164,7 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetFRec (FinancialRec Rec)
+        public Boolean SetFRec(FinancialRec Rec)
         {
             if ()
             {
@@ -176,7 +176,7 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetReqList (List<Request> RList)
+        public Boolean SetReqList(List<Request> RList)
         {
             if ()
             {
@@ -188,7 +188,7 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetHealth (PhysicalHealth HP)
+        public Boolean SetHealth(PhysicalHealth HP)
         {
             if ()
             {

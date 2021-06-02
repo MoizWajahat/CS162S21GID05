@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class Excercise
+    class Exercise
     {
         private String Name;
         private String Description;
