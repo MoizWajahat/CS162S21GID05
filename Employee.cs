@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class Customer : Person
+    class Employee : Person
     {
         private String Name;
         private DateTime DateOfBirth;
         private String Email;
         private CreditCard Card;
         private String Id;
-        private Boolean Membership;
         private GymThing GymItems;
         private DateTime DateJoined;
         private FinancialRec Financial;
-        private Trainer PersonalTrainer;
         private List<Request> RequestList;
-        private PhysicalHealth Health;
+        private String Profession;
+        private String TheType;
+        private Int64 Funds;
 
         //Getter
         public override String GetName()
@@ -58,17 +58,21 @@ namespace WindowsFormsApp1
         {
             return Financial;
         }
-        public Trainer GetPTrainer()
-        {
-            return PersonalTrainer;
-        }
         public List<Request> GetRequests()
         {
             return RequestList;
         }
-        public PhysicalHealth GetHealth ()
+        public String GetProf()
         {
-            return Health;
+            return Profession;
+        }
+        public new String GetType()
+        {
+            return TheType;
+        }
+        public Int64 GetFunds()
+        {
+            return Funds;
         }
 
         //Setter
@@ -132,18 +136,6 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetMemb(Boolean Status)
-        {
-            if ()
-            {
-                Membership = Status;
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
         public Boolean SetGymT(GymThing Item)
         {
             if ()
@@ -192,11 +184,11 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetHealth(PhysicalHealth HP)
+        public Boolean SetProf (String Prof)
         {
             if ()
             {
-                Health = HP;
+                Profession = Prof;
                 return true;
             }
             else
@@ -204,11 +196,23 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        public Boolean SetPTrain(Trainer mem)
+        public Boolean SetType (String T)
         {
             if ()
             {
-                PersonalTrainer = mem;
+                TheType = T;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public Boolean SetFunds (Int64 FF)
+        {
+            if ()
+            {
+                Funds = FF;
                 return true;
             }
             else
