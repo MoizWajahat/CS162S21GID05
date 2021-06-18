@@ -35,3 +35,15 @@ E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\GymM
 E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\GymManagement.csproj.CopyComplete
 E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\WindowsFormsApp1.exe
 E:\Uni Stuff\SEM2\OOP Group Project\Code for Github\CS162S21GID05\obj\Debug\WindowsFormsApp1.pdb
+M:\maazmoiz\CS162S21GID05\obj\Debug\GymManagement.csprojAssemblyReference.cache
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.exe.config
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.Form1.resources
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.Form2.resources
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.CustomerMenu.resources
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.TMenu.resources
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.GuestMenu.resources
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+M:\maazmoiz\CS162S21GID05\obj\Debug\GymManagement.csproj.GenerateResource.cache
+M:\maazmoiz\CS162S21GID05\obj\Debug\GymManagement.csproj.CoreCompileInputs.cache
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.exe
+M:\maazmoiz\CS162S21GID05\obj\Debug\WindowsFormsApp1.pdb
