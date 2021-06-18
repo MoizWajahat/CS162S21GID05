@@ -11,7 +11,6 @@ namespace WindowsFormsApp1
         private PhysicalHealth Health;
         private List<String> Proficiency;
         private List<Customer> PersCustomers;
-        private String TheType;
 
         //Getter
         public PhysicalHealth GetHealth()
@@ -22,12 +21,13 @@ namespace WindowsFormsApp1
         {
             return Proficiency;
         }
-        public List<Customer> GetPCusts ()
+        public List<Customer> GetPCusts()
         {
             return PersCustomers;
         }
         public new String GetType()
         {
+            TheType = "Trainer";
             return TheType;
         }
 
@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
 
             }
         }
-        public Boolean SetProfi (List<String> Pr)
+        public Boolean SetProfi(List<String> Pr)
         {
             if ()
             {
@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
 
             }
         }
-        public Boolean SetPCusts (List<Customer> PCust)
+        public Boolean SetPCusts(List<Customer> PCust)
         {
             if ()
             {
@@ -73,7 +73,7 @@ namespace WindowsFormsApp1
         }
         public new Boolean SetType(String T)
         {
-            if ()
+            if (T == "Trainer")
             {
                 TheType = T;
                 return true;
@@ -83,5 +83,8 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
+    }
+}
+
 
 

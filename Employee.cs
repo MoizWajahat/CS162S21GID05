@@ -8,18 +8,18 @@ namespace WindowsFormsApp1
 {
     class Employee : Person
     {
-        private String Name;
-        private DateTime DateOfBirth;
-        private String Email;
-        private CreditCard Card;
-        private String Id;
-        private GymThing GymItems;
-        private DateTime DateJoined;
-        private FinancialRec Financial;
-        private List<Request> RequestList;
-        private String Profession;
-        private String TheType;
-        private Int64 Funds;
+        protected String Name;
+        protected DateTime DateOfBirth;
+        protected String Email;
+        protected CreditCard Card;
+        protected String Id;
+        protected GymThing GymItems;
+        protected DateTime DateJoined;
+        protected FinancialRec Financial;
+        protected List<Request> RequestList;
+        protected String Profession;
+        protected String TheType;
+        protected Int64 Funds;
 
         //Getter
         public override String GetName()
@@ -68,6 +68,7 @@ namespace WindowsFormsApp1
         }
         public new String GetType()
         {
+            TheType = "Other";
             return TheType;
         }
         public Int64 GetFunds()
@@ -198,7 +199,7 @@ namespace WindowsFormsApp1
         }
         public Boolean SetType (String T)
         {
-            if ()
+            if (T == "Other")
             {
                 TheType = T;
                 return true;
