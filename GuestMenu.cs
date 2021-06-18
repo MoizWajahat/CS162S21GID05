@@ -51,5 +51,18 @@ namespace WindowsFormsApp1
         {
             bunifuPages2.SetPage("addCoustomer");
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            int n = guestTable.Rows.Add();
+            string name = guestName.Text;
+            string uname = guestUsername.Text;
+            DateTime Dat = guestEdate.Value;
+            guestTable.Rows.Add("maaz", "maaz", "12/12/2002");
+            MessageBox.Show("Request sent Successfully");
+
+
+        }
+        
     }
 }
