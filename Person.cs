@@ -13,6 +13,7 @@ namespace WindowsFormsApp1
         private String Email;
         private CreditCard Card;
         private String Id;
+        private String TheType;
 
         //Getter
         public abstract String GetName();

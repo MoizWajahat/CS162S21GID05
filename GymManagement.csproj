@@ -117,6 +117,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    
+
+    <Compile Include="Admin.cs" />
     <Compile Include="AdvancedWorkout.cs" />
     <Compile Include="BasicWorkout.cs" />
     <Compile Include="CreditCard.cs" />
@@ -144,6 +148,7 @@
     <Compile Include="ItemBase.cs" />
     <Compile Include="Machine.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="PhysicalHealth.cs" />
     <Compile Include="Request.cs" />
     <Compile Include="TMenu.cs">
       <SubType>Form</SubType>
