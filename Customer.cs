@@ -74,7 +74,32 @@ namespace WindowsFormsApp1
         //Setter
         public override Boolean SetName(String Nam)
         {
-            if ()
+            Boolean Valid = true;
+
+            for (int i=0; i<Nam.Length; i++)
+            {
+                if (!(Nam[i] >= 'A' && Nam[i] <= 'Z' ))
+                {
+                    Valid = false;
+                    break;
+                }
+                else if (!(Nam[i] >= 'A' && Nam[i] <= 'Z'))
+                {
+                    Valid = false;
+                    break;
+                }
+                else if (!(Nam[i] != ' '))
+                {
+                    Valid = false;
+                    break;
+                }
+            }
+            if (Nam.Length > 70)
+            {
+                Valid = false;
+            }
+
+            if (Valid)
             {
                 Name = Nam;
                 return true;

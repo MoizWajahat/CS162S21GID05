@@ -117,9 +117,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
-    
-
     <Compile Include="Admin.cs" />
     <Compile Include="AdvancedWorkout.cs" />
     <Compile Include="BasicWorkout.cs" />
@@ -145,11 +142,15 @@
     <Compile Include="CustomerMenu.Designer.cs">
       <DependentUpon>CustomerMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Guest.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="ItemBase.cs" />
+    <Compile Include="ListReqFunc.cs" />
     <Compile Include="Machine.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PhysicalHealth.cs" />
     <Compile Include="Request.cs" />
+    <Compile Include="SystemFunctions.cs" />
     <Compile Include="TMenu.cs">
       <SubType>Form</SubType>
     </Compile>
