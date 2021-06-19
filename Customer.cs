@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -111,6 +112,7 @@ namespace WindowsFormsApp1
         }
         public override Boolean SetDOB(DateTime DOB)
         {
+            String d=
             if ()
             {
                 DateOfBirth = DOB;
@@ -123,18 +125,24 @@ namespace WindowsFormsApp1
         }
         public override Boolean SetEmail(String Email)
         {
-            if ()
+            bool flag = false;
+            for(int i=0;i<Email.Length;i++)
             {
-                this.Email = Email;
-                return true;
+                if(Email[i]>='A' && Email[i]<='Z' && Email[i]=='@' && Email[i]=='.' || Email[i] >= 'a' && Email[i] <= 'z' && Email[i] == '@' && Email[i] == '.')
+                {
+                    flag= true;
+                }
+                else
+                {
+                    flag = false;
+                }
             }
-            else
-            {
-                return false;
-            }
+            return flag;
+
         }
         public override Boolean SetCard(CreditCard Credit)
         {
+
             if ()
             {
                 Card = Credit;
