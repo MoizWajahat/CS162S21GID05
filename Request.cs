@@ -11,8 +11,9 @@ namespace WindowsFormsApp1
         private String Title;
         private String Reasoning;
         private String Status;
-        private String Requestor;
+        private String RequestorID;
         private DateTime DateTimeRequested;
+        private String ReqID;
 
         public bool SetTitle(String Title)
         {
@@ -31,7 +32,7 @@ namespace WindowsFormsApp1
         }
         public bool SetRequestor(String Requestor)
         {
-            this.Requestor = Requestor;
+            this.RequestorID = Requestor;
             return true;
         }
         public bool SetDateTimeRequested(DateTime DateTimeRequested)
@@ -39,6 +40,13 @@ namespace WindowsFormsApp1
             this.DateTimeRequested = DateTimeRequested;
             return true;
         }
+        public bool SetReqID (String ReID)
+        {
+            this.ReqID = ReID;
+            return true;
+        }
+
+        //GETTER
         public String getTitle()
         {
             return Title;
@@ -53,12 +61,15 @@ namespace WindowsFormsApp1
         }
         public String getRequestor()
         {
-            return Requestor;
+            return RequestorID;
         }
-
         public DateTime getDateTimeRequested()
         {
             return DateTimeRequested;
+        }
+        public String GetReqID ()
+        {
+            return ReqID;
         }
     }
 }

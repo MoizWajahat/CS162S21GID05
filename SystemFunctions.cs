@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
         //OTHER
         public void LoadFromFiles ()
         {
-
+            
         }
         public void AddGlist (Guest G)
         {
