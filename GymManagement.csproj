@@ -143,6 +143,7 @@
       <DependentUpon>CustomerMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Guest.cs" />
+    <Compile Include="GymThing.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="ItemBase.cs" />
     <Compile Include="ListReqFunc.cs" />

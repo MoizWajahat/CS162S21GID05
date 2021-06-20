@@ -15,5 +15,52 @@ namespace WindowsFormsApp1
         private String AvoidReq;
         private DateTime Date;
         private String Cost;
+
+        public bool SetName(String Name)
+        {
+            this.Name = Name;
+            return true;
+        }
+        public bool SetDescription(String Description)
+        {
+            this.Description = Description;
+            return true;
+        }
+        public bool SetBenefit(String Benefit)
+        {
+            this.Benefit = Benefit;
+            return true;
+        }
+        public bool SetRecTime(String RecTime)
+        {
+            this.RecTime = RecTime;
+            return true;
+        }
+        public bool SetAvoidRec(String AvoidRec)
+        {
+            this.AvoidRec = AvoidRec;
+            return true;
+        }
+
+        public String getName()
+        {
+            return Name;
+        }
+        public String getDescription()
+        {
+            return Description;
+        }
+        public String getBenefit()
+        {
+            return Benefit;
+        }
+        public String getRecTime()
+        {
+            return RecTime;
+        }
+        public String getAvoidRec()
+        {
+            return AvoidRec;
+        }
     }
 }
