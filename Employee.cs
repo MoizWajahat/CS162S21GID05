@@ -226,7 +226,7 @@ namespace WindowsFormsApp1
                     flag = true;
                 }
             }
-            return flag;2
+            return flag;
         }
         public Boolean SetType (String T)
         {

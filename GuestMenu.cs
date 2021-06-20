@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,7 +64,8 @@ namespace WindowsFormsApp1
             string EDate= Convert.ToString(guestEdate.Value);
             string Cardno = guestCard.Text;
             string Address = guestAddress.Text;
-            MessageBox.Show(name,uname);
+            WriteGuestDataFile(name, uname, Pass, phone, DBirth, EDate, Cardno);
+
 
 
         }
@@ -76,6 +78,16 @@ namespace WindowsFormsApp1
         private void label14_Click(object sender, EventArgs e)
         {
 
+        }
+        public void WriteGuestDataFile(String name,String uname, String pass, String phone, String Dbirth, String id,String Cardno)
+        {
+            FileStream fs = new FileStream("GuestData1.txt", FileMode.Append, FileAccess.Write);
+            StreamWriter sw = new StreamWriter(fs);
+            
+            sw.WriteLine(name+","+uname+","+pass+","+Dbirth+","+id+","+Cardno);
+            sw.Flush();
+            sw.Close();
+            fs.Close();
         }
     }
 }
