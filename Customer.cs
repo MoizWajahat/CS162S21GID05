@@ -155,15 +155,16 @@ namespace WindowsFormsApp1
         }
         public override Boolean SetId(String ID)
         {
-            if ()
+            bool flag = false;
+            for(int i=0;i<ID.Length;i++)
             {
-                Id = ID;
-                return true;
+                if(ID[i]>='0' && ID[i]<='9')
+                {
+                    Id = ID;
+                     flag=true;
+                }
             }
-            else
-            {
-                return false;
-            }
+         return flag;
         }
         public Boolean SetMemb(Boolean Status)
         {

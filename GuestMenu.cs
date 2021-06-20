@@ -54,15 +54,28 @@ namespace WindowsFormsApp1
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            int n = guestTable.Rows.Add();
             string name = guestName.Text;
             string uname = guestUsername.Text;
-            DateTime Dat = guestEdate.Value;
-            guestTable.Rows.Add("maaz", "maaz", "12/12/2002");
-            MessageBox.Show("Request sent Successfully");
+            string Pass = guestPass.Text;
+            string phone = guestPhone.Text;
+            DateTime Bdate = GuestDdate.Value;
+            string DBirth = Convert.ToString(Bdate);
+            string EDate= Convert.ToString(guestEdate.Value);
+            string Cardno = guestCard.Text;
+            string Address = guestAddress.Text;
+            MessageBox.Show(name,uname);
 
 
         }
-        
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
