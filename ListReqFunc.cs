@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
         private HashSet<Exercise> ExerList;
         private HashSet<Machine> MachList;
         private List<Request> RequList;
-        private List<Item> ItemList;
+        private HashSet<Item> ItemList;
         private HashSet<WorkoutBase> WorkList;
         private List<FinancialRec> FineList;
 
@@ -40,7 +40,7 @@ namespace WindowsFormsApp1
         {
             return RequList;
         }
-        public List<Item> ItemGet()
+        public HashSet<Item> ItemGet()
         {
             return ItemList;
         }
@@ -121,6 +121,54 @@ namespace WindowsFormsApp1
                 if (RequList[i].GetReqID() == REID)
                 {
                     RequList.RemoveAt(i);
+                    Done = true;
+                    break;
+                }
+            }
+
+            return Done;
+        }
+        public Boolean DELItem(String Iname)
+        {
+            Boolean Done = false;
+
+            foreach (Item It in ItemList)
+            {
+                if (It.GetName() == Iname)
+                {
+                    ItemList.Remove(It);
+                    Done = true;
+                    break;
+                }
+            }
+
+            return Done;
+        }
+        public Boolean DELWork(String Wname)
+        {
+            Boolean Done = false;
+
+            foreach (WorkoutBase Wo in WorkList)
+            {
+                if (Wo.GetName() == Wname)
+                {
+                    WorkList.Remove(Wo);
+                    Done = true;
+                    break;
+                }
+            }
+
+            return Done;
+        }
+        public Boolean DELFine (String ID)
+        {
+            Boolean Done = false;
+
+            for (int i=0; i < FineList.Count; i++)
+            {
+                if (FineList[i].getID() == ID)
+                {
+                    FineList.RemoveAt(i);
                     Done = true;
                     break;
                 }

@@ -42,10 +42,6 @@ namespace WindowsFormsApp1
         {
             return Id;
         }
-        public Boolean Getmemb()
-        {
-            return Membership;
-        }
         public GymThing GetGItems()
         {
             return GymItems;
