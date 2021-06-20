@@ -124,15 +124,19 @@ namespace WindowsFormsApp1
         }
         public override Boolean SetEmail(String Email)
         {
-            if ()
+            bool flag = false;
+            for (int i = 0; i < Email.Length; i++)
             {
-                this.Email = Email;
-                return true;
+                if (Email[i] >= 'A' && Email[i] <= 'Z' && Email[i] == '@' && Email[i] == '.' || Email[i] >= 'a' && Email[i] <= 'z' && Email[i] == '@' && Email[i] == '.')
+                {
+                    flag = true;
+                }
+                else
+                {
+                    flag = false;
+                }
             }
-            else
-            {
-                return false;
-            }
+            return flag;
         }
         public override Boolean SetCard(CreditCard Credit)
         {
@@ -148,15 +152,16 @@ namespace WindowsFormsApp1
         }
         public override Boolean SetId(String ID)
         {
-            if ()
+            bool flag = false;
+            for (int i = 0; i < ID.Length; i++)
             {
-                Id = ID;
-                return true;
+                if (ID[i] >= '0' && ID[i] <= '9')
+                {
+                    Id = ID;
+                    flag = true;
+                }
             }
-            else
-            {
-                return false;
-            }
+            return flag;
         }
         public Boolean SetGymT(GymThing Item)
         {
@@ -208,15 +213,16 @@ namespace WindowsFormsApp1
         }
         public Boolean SetProf (String Prof)
         {
-            if ()
+            bool flag = false;
+            for(int i=0;i<Prof.Length;i++)
             {
-                Profession = Prof;
-                return true;
+                if(Prof[i]>='A' && Prof[i]<='Z'  || Prof[i] >= 'a' && Prof[i] <= 'z' || Prof[i]==' ')
+                {
+                    this.Profession = Prof;
+                    flag = true;
+                }
             }
-            else
-            {
-                return false;
-            }
+            return flag;
         }
         public Boolean SetType (String T)
         {
